@@ -1,0 +1,42 @@
+h1{
+    color: red;
+}
+h2{
+    color: red;
+    font-style: italic;
+}
+.fast{
+    word-spacing: 10px;
+    line-height: 30px;
+      
+     color: red;
+}
+.del{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.u{
+    text-decoration-line: underline;
+    font-style: italic;
+}
+
+.sec{
+    word-spacing: 5px;
+    color: red;
+    letter-spacing:4px ;
+}
+
+.col{
+    background-color: yellow;
+    font-weight: bold;
+}
+.word{
+    color: red;
+}
+.a{
+    background-color: yellow;
+    font-style: italic;
+    color: red;
+    text-decoration: none;
+
+}
