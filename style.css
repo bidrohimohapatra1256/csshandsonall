@@ -1,0 +1,138 @@
+.head{
+    background-image: linear-gradient(to right, red,green,yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.head2{
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: center;
+    margin:20px;
+    margin-left: 500px;
+    margin-right: 350px;
+}
+.ul{
+    text-align: center;
+    padding-left: 150px;
+}
+.box1{
+    background-color: aquamarine;
+    border: 2px solid gray;
+    height: 200px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+
+}
+.body{
+    
+    border: 2px solid gray;
+    border-radius: 10px;
+    height:60px;
+    width: 500px;
+    text-align: center;
+    background-color: aqua;
+    
+}
+.b{
+margin-left: 150px;
+
+  
+}
+
+
+.box2{
+    text-decoration: underline;
+    background-image: linear-gradient( yellow,red );
+    height: 50px;
+    text-align: center;
+}
+.box3{
+   
+    background-image: radial-gradient(blue 5px,rgba(7, 82, 82, 0.852));
+    border:1px solid red;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    height:200px;
+    
+}
+.r{
+    
+    text-decoration: underline;
+    border-radius: 10px;
+    color: red;
+    border: 1px solid darkcyan;
+    background-color: yellow;
+    height: fit-content;
+    text-align: center;
+    margin: 35px;
+    
+    
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns:300px 300px 300px;
+    gap:15px;
+    border: 1px solid black;
+}
+
+
+.box4{
+color: white;
+background-color: red;
+text-align: center;
+grid-column-start: 1;
+grid-column-end: 5;
+
+
+}
+.box5{
+    color: white;
+    background-color: green;
+    text-align: center; 
+}
+.box6{
+    background-color:blue ; 
+    
+
+}
+.box7{
+    background-color:darkslateblue ; 
+}
+.box8{
+    background-color:black ;
+    color: white;
+    text-decoration: underline;
+   
+    
+  
+
+
+    
+}
+.box9{
+    background-color:yellow;
+    width:1200px;
+    grid-column-start: 1;
+grid-column-end: 5;
+   
+   
+    
+
+}
+.box10{
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+
+    
