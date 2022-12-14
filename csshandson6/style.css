@@ -1,0 +1,194 @@
+.head {
+    background-image: url(./image/shara\ desert.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.box1 {
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+
+}
+
+.box2 {
+    color: white;
+    margin-top: 50px;
+    float: left;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+.s {
+    font-size: 80px;
+}
+
+.Explore {
+    height: 20px;
+    width: 200px;
+}
+
+.Explore1 {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: bolt;
+    border-radius: 20px;
+}
+
+.box3 {
+    float: right;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto auto;
+
+}
+
+.iteam:hover {
+    transform: translateY(-3px);
+}
+
+.iteam {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-right: 50px;
+    background-size: cover;
+    color: white;
+
+}
+
+.iteam1 {
+    background-image: url(./image/pic-1.png);
+    background-repeat: no-repeat;
+
+}
+
+.iteam2 {
+    background-image: url(./image/pic-2.png);
+    background-repeat: no-repeat;
+}
+
+.iteam3 {
+    background-image: url(./image/pic-3.png);
+    background-repeat: no-repeat;
+}
+
+.iteam4 {
+    background-image: url(./image/pic-4.png);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:856px) {
+    .box1 {
+        display: block;
+    }
+
+    .box2 {
+        width: 100%;
+        margin-bottom: -50px;
+    }
+
+    .s {
+        font-size: 40px;
+
+    }
+
+    .box3 {
+
+        width: 90%;
+        /* margin-left: 150px; */
+        /* margin-top: 400px; */
+        /* width: fit-content; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .iteam {
+        width: 483px;
+        height: 300px;
+        background-size: cover;
+
+    }
+
+    .head {
+        background-repeat: repeat;
+        background-size: cover;
+        background-image: url(./image/shara\ desert.jpg);
+    }
+
+    .Explore {}
+
+
+}
+@media screen and (max-width:400px) {
+    .box1 {
+    
+    }
+
+    .box2 {
+        width: 100%;
+        margin-bottom: -50px;
+    }
+
+    .s {
+        font-size: 40px;
+
+    }
+
+    .box3 {
+
+        width: 90%;
+        /* margin-left: 150px; */
+        /* margin-top: 400px; */
+        /* width: fit-content; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .iteam {
+        width: 206px;
+        /* height: 300px; */
+        background-size: cover;
+
+    }
+
+    .head {
+        background-repeat: repeat;
+        background-size: cover;
+        background-image: url(./image/shara\ desert.jpg);
+        
+    }
+    .img{
+            /* height: 50px; */
+    width: 50px;
+    margin-left: 50px;
+    margin-top: 9px;
+
+    }
+
+    .Explore {}
+
+
+}
